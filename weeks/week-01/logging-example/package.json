@@ -1,0 +1,20 @@
+{
+  "name": "logging-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "LOG_LEVEL=debug node index.js | pino-colada"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "~4.21.2",
+    "pino": "^9.9.0",
+    "pino-colada": "^2.2.2",
+    "pino-http": "^10.5.0",
+    "pino-pretty": "^13.1.1"
+  }
+}
